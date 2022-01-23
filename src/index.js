@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Footer } from './components/Footer';
 import { Header } from './components/Header';
 import { About } from './pages/about';
-import { Contact } from './pages/contact';
+import { Skills } from './pages/skills';
 import { Home } from './pages/home';
 import { Projects } from './pages/projects';
 import './styles/globals.css';
@@ -17,7 +17,7 @@ ReactDOM.render(
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/projects" element={<Projects />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/skills" element={<Skills />} />
       </Routes>
       <Footer />
     </BrowserRouter>
