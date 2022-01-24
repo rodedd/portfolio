@@ -4,7 +4,7 @@ import { Container } from '../layouts/Container';
 const About = () => {
   return (
     <Container >
-      <div className='text-center mb-4'>
+      <div className='text-center mb-10'>
         <h1 className='title'>About me</h1>
         <h2 className='subtitle'>Who is Eduardo?</h2>
       </div>
