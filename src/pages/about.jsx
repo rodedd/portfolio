@@ -1,15 +1,26 @@
 import React from 'react';
+import { Container } from '../layouts/Container';
 
 const About = () => {
   return (
-    <div>
-      <div>
-        <h1>About me</h1>
-        <h2>Who is Eduardo?</h2>
+    <Container >
+      <div className='text-center mb-4'>
+        <h1 className='title'>About me</h1>
+        <h2 className='subtitle'>Who is Eduardo?</h2>
       </div>
       
-      <img src="https://res.cloudinary.com/rodedd/image/upload/v1642636411/portfolio/Perfil334_dslkod.jpg" alt="Eduardo Prado" />
-      <div>
+      <img className='rounded-xl w-full mb-4' src="https://res.cloudinary.com/rodedd/image/upload/v1642636411/portfolio/Perfil334_dslkod.jpg" alt="Eduardo Prado" />
+
+      <div className='text-lg'>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos suscipit corporis quis doloremque ad. Et voluptate odit corrupti repudiandae! Quos.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos suscipit corporis quis doloremque ad. Et voluptate odit corrupti repudiandae! Quos.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos suscipit corporis quis doloremque ad. Et voluptate odit corrupti repudiandae! Quos.
+        </p>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos suscipit corporis quis doloremque ad. Et voluptate odit corrupti repudiandae! Quos.
         </p>
@@ -20,7 +31,7 @@ const About = () => {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos suscipit corporis quis doloremque ad. Et voluptate odit corrupti repudiandae! Quos.
         </p>
       </div>
-    </div>
+    </Container>
   );
 };
 

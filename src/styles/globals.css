@@ -1,3 +1,48 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .title {
+    @apply font-roboto text-xl font-medium text-primary mb-2;
+  }
+  .subtitle {
+    @apply font-baskerville text-3xl font-bold mb-2;
+  }
+}
+
+.circle-1 {
+  background: radial-gradient(
+    closest-side,
+    rgba(45, 212, 191, 1),
+    rgba(255, 255, 255, 0)
+  );
+  animation: diagonal-up-left 6s ease-in-out infinite alternate;
+}
+
+.circle-2 {
+  background: radial-gradient(
+    closest-side,
+    rgba(99, 102, 241, 1),
+    rgba(255, 255, 255, 0)
+  );
+  animation: diagonal-up-right 10s ease-in-out infinite alternate;
+}
+
+@keyframes diagonal-up-left {
+  0% {
+  }
+
+  100% {
+    transform: translateY(-200px) translateX(-350px);
+  }
+}
+
+@keyframes diagonal-up-right {
+  0% {
+  }
+
+  100% {
+    transform: translateY(-300px) translateX(300px);
+  }
+}

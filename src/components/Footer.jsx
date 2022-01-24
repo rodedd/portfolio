@@ -2,9 +2,9 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className='w-full bg-gray-400 mt-8 text-center'>
+    <footer className='w-full mt-8 text-center'>
       <hr />
-      <p className='text-sm py-6 px-4'>©2022 | Designed & coded with 💙 by Eduardo Prado</p>
+      <p className='text-lg py-6 px-4'>©2022 | Made with ♥️ by Eduardo</p>
     </footer>
   );
 };

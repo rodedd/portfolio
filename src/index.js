@@ -12,14 +12,12 @@ import './styles/globals.css';
 ReactDOM.render(
   <>
     <BrowserRouter>
-      <Header />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/projects" element={<Projects />} />
         <Route path="/skills" element={<Skills />} />
+        <Route path="/projects" element={<Projects />} />
       </Routes>
-      <Footer />
     </BrowserRouter>
   </>,
   document.getElementById('root')
