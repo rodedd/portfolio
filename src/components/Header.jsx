@@ -14,7 +14,20 @@ const Header = () => {
       <nav className='flex justify-between items-center w-screen relative'>
         <div>
           <Link to="/"> 
-            <img className='w-28 rounded-full' src="" alt="Eduardo Prado" />
+            <svg className='logo' width="90" height="48" viewBox="0 0 484 484" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g className='logo-e'>
+                <rect width="300" height="65.641" rx="20" fill="#457B9D"/>
+                <rect y="334.359" width="300" height="65.641" rx="20" fill="#457B9D"/>
+                <rect y="400" width="400" height="71.1111" rx="20" transform="rotate(-90 0 400)" fill="#457B9D"/>
+                <rect y="167" width="300" height="66" rx="20" fill="#457B9D"/>
+              </g>
+              <g className='logo-p'>
+                <rect x="184" y="84" width="299.889" height="65.641" rx="20" fill="#FF6978"/>
+                <rect x="184" y="251.18" width="299.889" height="65.641" rx="20" fill="#FF6978"/>
+                <rect x="412.915" y="316.82" width="232.821" height="71.0848" rx="20" transform="rotate(-90 412.915 316.82)" fill="#FF6978"/>
+                <rect x="184" y="484" width="400" height="71.0848" rx="20" transform="rotate(-90 184 484)" fill="#FF6978"/>
+              </g>
+            </svg>
           </Link>
         </div>
 

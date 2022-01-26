@@ -4,17 +4,20 @@
 
 @layer components {
   .title {
-    @apply font-roboto text-xl font-medium text-primary mb-2;
+    @apply font-roboto text-xl font-normal uppercase text-ultraRed mb-2;
   }
   .subtitle {
-    @apply font-baskerville text-3xl font-bold mb-2;
+    @apply font-baskerville text-3xl font-bold text-prussianBlue mb-2;
+  }
+  .paragraph {
+    @apply font-roboto text-lg font-normal text-gray-800 mb-2;
   }
 }
 
 .circle-1 {
   background: radial-gradient(
     closest-side,
-    rgba(45, 212, 191, 1),
+    rgba(255, 105, 120, 1),
     rgba(255, 255, 255, 0)
   );
   animation: diagonal-up-left 6s ease-in-out infinite alternate;
@@ -23,10 +26,28 @@
 .circle-2 {
   background: radial-gradient(
     closest-side,
-    rgba(99, 102, 241, 1),
+    rgba(29, 53, 87, 1),
     rgba(255, 255, 255, 0)
   );
   animation: diagonal-up-right 10s ease-in-out infinite alternate;
+}
+
+.logo .logo-e {
+  transform: translateY(0) translateX(0);
+  transition: transform 250ms ease-in-out;
+}
+.logo .logo-p {
+  transform: translateY(0) translateX(0);
+  transition: transform 250ms ease-in-out;
+}
+
+.logo:hover .logo-e {
+  transform: translateY(42px) translateX(-70px);
+  transition: transform 200ms ease-in-out;
+}
+.logo:hover .logo-p {
+  transform: translateY(-42px) translateX(70px);
+  transition: transform 200ms ease-in-out;
 }
 
 @keyframes diagonal-up-left {

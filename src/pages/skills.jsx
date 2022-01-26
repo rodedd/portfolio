@@ -107,7 +107,7 @@ const Skills = () => {
       <div className='mb-10'>
         <h1 className='title'>Skills & Tools</h1>
         <h2 className='subtitle'>My toolbox & things I can do</h2>
-        <p className='text-lg'>The skills, tools and technologies I use everyday</p>
+        <p className='paragraph'>The skills, tools and technologies I use everyday</p>
       </div>
 
       <div className='grid grid-cols-2 gap-5 place-items-center mb-10 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6'>

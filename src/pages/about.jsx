@@ -4,12 +4,12 @@ import { Container } from '../layouts/Container';
 const About = () => {
   return (
     <Container >
-      <div className='text-center mb-10'>
+      <div className='mb-10'>
         <h1 className='title'>About me</h1>
         <h2 className='subtitle'>Who is Eduardo?</h2>
       </div>
       
-      <img className='rounded-xl w-full mb-4' src="https://res.cloudinary.com/rodedd/image/upload/v1642636411/portfolio/Perfil334_dslkod.jpg" alt="Eduardo Prado" />
+      {/* <img className='rounded-xl w-full mb-4' src="https://res.cloudinary.com/rodedd/image/upload/v1642636411/portfolio/Perfil334_dslkod.jpg" alt="Eduardo Prado" /> */}
 
       <div className='text-lg'>
         <p>

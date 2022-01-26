@@ -15,17 +15,17 @@ const Project = ({ name, description, tags, liveUrl, githubUrl, image }) => {
         <ul className='flex'>
           {
             tags.map(tag => (
-              <li>{tag}</li>
+              <li key={tag}>{tag}</li>
             ))
           }
         </ul>
       </span>
 
       <div>
-        <a className='bg-primary text-sm py-3 px-2 rounded-full inline-block w-24 text-center mr-4' href={liveUrl} target='_blank' rel='noreferrer'>
+        <a className='bg-ultraRed text-sm py-3 px-2 rounded-full inline-block w-24 text-center mr-4' href={liveUrl} target='_blank' rel='noreferrer'>
           Live Demo
         </a>
-        <a className='bg-primary text-sm py-3 px-2 rounded-full inline-block w-32 text-center mr-10' href={githubUrl} target='_blank' rel='noreferrer'>
+        <a className='bg-ultraRed text-sm py-3 px-2 rounded-full inline-block w-32 text-center mr-10' href={githubUrl} target='_blank' rel='noreferrer'>
           View on GitHub
         </a>
       </div>

@@ -9,7 +9,11 @@ module.exports = {
     },
     extend: {
       colors: {
-        primary: '#17DAB6',
+        ultraRed: '#FF6978',
+        babyPowder: '#FFFCF9',
+        powderBlue: '#A8DADC',
+        celadonBlue: '#457B9D',
+        prussianBlue: '#1D3557',
       },
     },
   },

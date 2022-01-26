@@ -12,7 +12,7 @@ const projects = [
     image: 'https://anniebombanie.com/assets/work-personal-date-night.png',
   },
   {
-    name: 'Projecto 12312',
+    name: 'fhfg 12312',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae quaerat error fugiat aliquid eos doloremque minima repellendus similique neque corrupti!',
     tags: ['CSS', 'JavaScript'],
     liveUrl: 'https://github.com',
@@ -28,9 +28,9 @@ const Projects = () => {
           <h1 className='title'>Projects</h1>
           <h2 className='subtitle'>Some stuff I've built.</h2>
         </div>
+
         <div>
-          {
-            projects.map(project => (
+          {projects.map(project => (
               <Project
                 key={project.name}
                 name={project.name}
@@ -40,8 +40,7 @@ const Projects = () => {
                 githubUrl={project.githubUrl}
                 image={project.image}
               />
-            ))
-          }
+            ))}
         </div>
     </Container>
   );
