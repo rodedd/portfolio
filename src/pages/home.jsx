@@ -5,7 +5,7 @@ import { Container } from '../layouts/Container';
 const Home = () => {
   return (
     <Container grid={false}>
-      <main className='p-4 relative'>
+      <main className='relative'>
       
       <div className='-z-10 absolute'>
         <div className='absolute top-0 left-0 w-[600px] h-[600px] opacity-50 rounded-full circle-1'>

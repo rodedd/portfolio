@@ -14,20 +14,15 @@ const Header = () => {
       <nav className='flex justify-between items-center w-screen relative'>
         <div>
           <Link to="/"> 
-            <svg className='logo' width="90" height="48" viewBox="0 0 484 484" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <g className='logo-e'>
-                <rect width="300" height="65.641" rx="20" fill="#457B9D"/>
-                <rect y="334.359" width="300" height="65.641" rx="20" fill="#457B9D"/>
-                <rect y="400" width="400" height="71.1111" rx="20" transform="rotate(-90 0 400)" fill="#457B9D"/>
-                <rect y="167" width="300" height="66" rx="20" fill="#457B9D"/>
-              </g>
-              <g className='logo-p'>
-                <rect x="184" y="84" width="299.889" height="65.641" rx="20" fill="#FF6978"/>
-                <rect x="184" y="251.18" width="299.889" height="65.641" rx="20" fill="#FF6978"/>
-                <rect x="412.915" y="316.82" width="232.821" height="71.0848" rx="20" transform="rotate(-90 412.915 316.82)" fill="#FF6978"/>
-                <rect x="184" y="484" width="400" height="71.0848" rx="20" transform="rotate(-90 184 484)" fill="#FF6978"/>
-              </g>
-            </svg>
+          <svg width="60" viewBox="0 0 440 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 40C0 17.9086 17.9086 0 40 0H200V40H0V40Z" fill="#A8DADC"/>
+            <rect y="79.4643" width="200" height="40" fill="#A8DADC"/>
+            <path d="M0 159H200V199H40C17.9086 199 0 181.091 0 159V159Z" fill="#A8DADC"/>
+            <path d="M0 160L0 80L40 80L40 160H0Z" fill="#A8DADC"/>
+            <path d="M240 0H400C422.091 0 440 17.9086 440 40V40H240V0Z" fill="#1D3557"/>
+            <path d="M240 79H440V79C440 101.091 422.091 119 400 119H240V79Z" fill="#1D3557"/>
+            <rect x="240" y="200" width="121" height="40" transform="rotate(-90 240 200)" fill="#1D3557"/>
+          </svg>
           </Link>
         </div>
 
@@ -46,7 +41,7 @@ const Header = () => {
           </li>
         </ul>
 
-        <div className='cursor-pointer'>
+        <div className='hidden cursor-pointer'>
           <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
           </svg>
