@@ -48,7 +48,7 @@ const Header = () => {
         </div>
 
         <div 
-          className='w-12 h-12 flex justify-center items-center bg-gray-200 rounded-full cursor-pointer md:hidden'
+          className='absolute right-0 w-12 h-12 flex justify-center items-center bg-gray-200 rounded-full cursor-pointer md:hidden'
           onClick={openMenu}
         >
           <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">

@@ -4,7 +4,7 @@ import { Container } from '../layouts/Container';
 const About = () => {
   return (
     <Container >
-      <div className='mb-10'>
+      <div className='my-10 w-full'>
         <h1 className='title'>About me</h1>
         <h2 className='subtitle'>Who is Eduardo?</h2>
       </div>
@@ -16,20 +16,12 @@ const About = () => {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos suscipit corporis quis doloremque ad. Et voluptate odit corrupti repudiandae! Quos.
         </p>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos suscipit corporis quis doloremque ad. Et voluptate odit corrupti repudiandae! Quos.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, debitis neque dolor laboriosam a culpa odit consectetur eum?
         </p>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos suscipit corporis quis doloremque ad. Et voluptate odit corrupti repudiandae! Quos.
         </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos suscipit corporis quis doloremque ad. Et voluptate odit corrupti repudiandae! Quos.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos suscipit corporis quis doloremque ad. Et voluptate odit corrupti repudiandae! Quos.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos suscipit corporis quis doloremque ad. Et voluptate odit corrupti repudiandae! Quos.
-        </p>
+
       </div>
     </Container>
   );
