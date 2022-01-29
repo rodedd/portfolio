@@ -7,10 +7,10 @@
     @apply bg-babyPowder;
   }
   .title {
-    @apply font-roboto text-xl font-normal uppercase text-ultraRed mb-2;
+    @apply font-roboto text-base font-normal uppercase text-ultraRed mb-2;
   }
   .subtitle {
-    @apply font-baskerville text-3xl font-bold text-prussianBlue mb-2;
+    @apply font-baskerville text-4xl font-bold text-prussianBlue mb-2;
   }
   .paragraph {
     @apply font-roboto text-lg font-normal text-gray-800 mb-2;

@@ -1,19 +1,22 @@
 import React, { useState } from 'react';
 
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 import { Menu } from './Menu';
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
+
   const openMenu = () => setIsOpen(!isOpen);
+
+  const activeClassName = 'font-bold underline underline-offset-8 decoration-ultraRed decoration-2 text-black';
 
 
   return (
     <header className='flex w-full h-20'>
       <nav className='flex justify-between items-center w-screen relative'>
         <div>
-          <Link to="/"> 
+          <NavLink to="/"> 
           <svg width="60" viewBox="0 0 440 200" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M0 40C0 17.9086 17.9086 0 40 0H200V40H0V40Z" fill="#A8DADC"/>
             <rect y="79.4643" width="200" height="40" fill="#A8DADC"/>
@@ -23,21 +26,21 @@ const Header = () => {
             <path d="M240 79H440V79C440 101.091 422.091 119 400 119H240V79Z" fill="#1D3557"/>
             <rect x="240" y="200" width="121" height="40" transform="rotate(-90 240 200)" fill="#1D3557"/>
           </svg>
-          </Link>
+          </NavLink>
         </div>
 
-        <ul className='hidden md:flex md:justify-between w-96 font-roboto text-xl'>
-          <li>
-            <Link to="/">Home</Link>
+        <ul className='hidden md:flex md:justify-between w-96 font-roboto text-lg text-gray-700'>
+          <li className='py-2 px-5 rounded-full transition ease-in-out hover:bg-gray-200 hover:-translate-y-1 hover:scale-110 duration-300'>
+            <NavLink to="/" className={({ isActive }) => isActive ? activeClassName : null }>Home</NavLink>
           </li>
-          <li>
-            <Link to="/about">About</Link>
+          <li className='py-2 px-5 rounded-full transition ease-in-out hover:bg-gray-200 hover:-translate-y-1 hover:scale-110 duration-300'>
+            <NavLink to="/about" className={({ isActive }) => isActive ? activeClassName : null }>About</NavLink>
             </li>
-          <li>
-            <Link to="/skills">Skills</Link>
+          <li className='py-2 px-5 rounded-full transition ease-in-out hover:bg-gray-200 hover:-translate-y-1 hover:scale-110 duration-300'>
+            <NavLink to="/skills" className={({ isActive }) => isActive ? activeClassName : null }>Skills</NavLink>
           </li>
-          <li>
-            <Link to="/projects">Projects</Link>
+          <li className='py-2 px-5 rounded-full transition ease-in-out hover:bg-gray-200 hover:-translate-y-1 hover:scale-110 duration-300'>
+            <NavLink to="/projects" className={({ isActive }) => isActive ? activeClassName : null }>Projects</NavLink>
           </li>
         </ul>
 

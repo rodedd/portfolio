@@ -104,15 +104,14 @@ const Skills = () => {
   return (
     <Container>
 
-      <div className='my-10 w-full'>
+      <div className='text-center my-10 w-full'>
         <h1 className='title'>Skills & Tools</h1>
         <h2 className='subtitle'>My toolbox & things I can do</h2>
-        <p className='paragraph'>The skills, tools and technologies I use everyday</p>
       </div>
 
       <div className='grid grid-cols-2 gap-5 place-items-center mb-10 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8'>
         {skills.map(skill => (
-          <div key={skill.name} className='flex flex-col justify-center items-center w-2/3'>
+          <div key={skill.name} className='flex flex-col justify-center items-center w-4/5'>
             <skill.icon />
             <span className='text-lg font-roboto mt-4'>{skill.name}</span>
           </div>
