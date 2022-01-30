@@ -33,7 +33,7 @@
 .circle-2 {
   background: radial-gradient(
     closest-side,
-    rgba(29, 53, 87, 1),
+    rgb(69, 123, 157),
     rgba(255, 255, 255, 0)
   );
   animation: diagonal-up-right 10s ease-in-out infinite alternate;
@@ -62,7 +62,7 @@
   }
 
   100% {
-    transform: translateY(-200px) translateX(-350px);
+    transform: translateY(-200px) translateX(-300px);
   }
 }
 
@@ -71,6 +71,6 @@
   }
 
   100% {
-    transform: translateY(-300px) translateX(300px);
+    transform: translateY(-200px) translateX(350px);
   }
 }
