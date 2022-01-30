@@ -109,7 +109,7 @@ const Skills = () => {
         <h2 className='subtitle'>My toolbox & things I can do</h2>
       </div>
 
-      <div className='grid grid-cols-2 gap-5 place-items-center mb-10 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8'>
+      <div className='w-full grid grid-cols-3 gap-5 place-items-start mb-10 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8'>
         {skills.map(skill => (
           <div key={skill.name} className='flex flex-col justify-center items-center w-4/5'>
             <skill.icon />
@@ -118,7 +118,7 @@ const Skills = () => {
         ))}
       </div>
 
-      <div>
+      <div className='w-full'>
         <h3 className='subtitle text-xl'>Currently learning:</h3>
         <p className='text-lg'>I'm improving my skills and understanding on React and Tailwind CSS</p>
       </div>

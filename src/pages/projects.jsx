@@ -19,6 +19,30 @@ const projects = [
     githubUrl: 'https://google.com',
     image: 'https://anniebombanie.com/assets/work-personal-date-night.png',
   },
+  {
+    name: 'fhfg dsaasd',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae quaerat error fugiat aliquid eos doloremque minima repellendus similique neque corrupti!',
+    tags: ['CSS', 'JavaScript'],
+    liveUrl: 'https://github.com',
+    githubUrl: 'https://google.com',
+    image: 'https://anniebombanie.com/assets/work-personal-date-night.png',
+  },
+  {
+    name: 'fhfg r3efdvs',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae quaerat error fugiat aliquid eos doloremque minima repellendus similique neque corrupti!',
+    tags: ['CSS', 'JavaScript'],
+    liveUrl: 'https://github.com',
+    githubUrl: 'https://google.com',
+    image: 'https://anniebombanie.com/assets/work-personal-date-night.png',
+  },
+  {
+    name: 'fhfg saddasd',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae quaerat error fugiat aliquid eos doloremque minima repellendus similique neque corrupti!',
+    tags: ['CSS', 'JavaScript'],
+    liveUrl: 'https://github.com',
+    githubUrl: 'https://google.com',
+    image: 'https://anniebombanie.com/assets/work-personal-date-night.png',
+  },
 ]
 
 const Projects = () => {
@@ -30,7 +54,7 @@ const Projects = () => {
         </div>
 
         <div>
-          {projects.map(project => (
+          {projects.map((project, index) => (
               <Project
                 key={project.name}
                 name={project.name}
@@ -39,6 +63,7 @@ const Projects = () => {
                 liveUrl={project.liveUrl}
                 githubUrl={project.githubUrl}
                 image={project.image}
+                index={index}
               />
             ))}
         </div>
