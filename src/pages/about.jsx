@@ -5,8 +5,8 @@ const About = () => {
   return (
     <Container>
       <div className='my-10 w-full'>
-        <h1 className='title'>About me</h1>
-        <h2 className='subtitle'>Who is Eduardo?</h2>
+        <h1 className='title'>About</h1>
+        <h2 className='subtitle'>This is me.</h2>
       </div>
       
       <div className='w-full text-lg sm:flex'>

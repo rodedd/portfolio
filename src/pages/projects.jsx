@@ -50,7 +50,7 @@ const Projects = () => {
     <Container>
       <div className='my-10 w-full'>
         <h1 className='title'>Projects</h1>
-        <h2 className='subtitle'>Some stuff I've built.</h2>
+        <h2 className='subtitle'>A selection of stuff I've built.</h2>
       </div>
 
       <div>
