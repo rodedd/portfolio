@@ -13,7 +13,19 @@
     @apply font-baskerville text-4xl font-bold text-prussianBlue mb-2;
   }
   .paragraph {
-    @apply font-roboto text-lg font-normal text-gray-800 mb-2;
+    @apply font-roboto text-lg font-normal text-prussianBlue mb-2;
+  }
+  .navlink-hover {
+    @apply py-2 px-5 rounded-full transition ease-in-out hover:bg-gray-200 hover:-translate-y-1 hover:scale-110 duration-300;
+  }
+  .navlink-active {
+    @apply font-bold underline underline-offset-8 decoration-ultraRed decoration-2 text-prussianBlue;
+  }
+  .skills-svg {
+    @apply fill-ultraRed stroke-prussianBlue stroke-2;
+  }
+  .button-ring {
+    @apply transition-all hover:ring hover:ring-prussianBlue hover:ring-offset-2 hover:ring-offset-babyPowder;
   }
 }
 
@@ -39,7 +51,7 @@
   animation: diagonal-up-right 10s ease-in-out infinite alternate;
 }
 
-.logo .logo-e {
+/* .logo .logo-e {
   transform: translateY(0) translateX(0);
   transition: transform 250ms ease-in-out;
 }
@@ -55,6 +67,34 @@
 .logo:hover .logo-p {
   transform: translateY(-42px) translateX(70px);
   transition: transform 200ms ease-in-out;
+} */
+
+.appear {
+  animation: appear 300ms ease-in-out;
+}
+
+@keyframes appear {
+  0% {
+    transform: translateY(20px);
+    opacity: 0.1;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.appear-menu {
+  animation: appear-menu 250ms ease-in-out;
+}
+
+@keyframes appear-menu {
+  0% {
+    opacity: 0.1;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @keyframes diagonal-up-left {

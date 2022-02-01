@@ -7,7 +7,7 @@ const Menu = ({ openMenu }) => {
     <div className='md:hidden'>
       <div className='fixed top-0 left-0 w-screen h-screen bg-black/40 z-10'></div>
 
-      <div className='bg-babyPowder absolute top-2 -right-2 w-64 h-72 z-20 rounded-lg flex flex-col p-4 pb-6'>
+      <div className='bg-babyPowder absolute top-2 -right-2 w-64 h-72 z-20 rounded-lg flex flex-col p-4 pb-6 appear-menu'>
         <div
           className='self-end cursor-pointer'
           onClick={openMenu}

@@ -9,38 +9,35 @@ const Header = () => {
 
   const openMenu = () => setIsOpen(!isOpen);
 
-  const activeClassName = 'font-bold underline underline-offset-8 decoration-ultraRed decoration-2 text-black';
-
-
   return (
     <header className='flex w-full h-20'>
       <nav className='flex justify-between items-center w-screen relative'>
         <div>
           <NavLink to="/"> 
-          <svg width="60" viewBox="0 0 440 200" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M0 40C0 17.9086 17.9086 0 40 0H200V40H0V40Z" fill="#A8DADC"/>
-            <rect y="79.4643" width="200" height="40" fill="#A8DADC"/>
-            <path d="M0 159H200V199H40C17.9086 199 0 181.091 0 159V159Z" fill="#A8DADC"/>
-            <path d="M0 160L0 80L40 80L40 160H0Z" fill="#A8DADC"/>
-            <path d="M240 0H400C422.091 0 440 17.9086 440 40V40H240V0Z" fill="#1D3557"/>
-            <path d="M240 79H440V79C440 101.091 422.091 119 400 119H240V79Z" fill="#1D3557"/>
-            <rect x="240" y="200" width="121" height="40" transform="rotate(-90 240 200)" fill="#1D3557"/>
-          </svg>
+            <svg width="60" viewBox="0 0 440 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0 40C0 17.9086 17.9086 0 40 0H200V40H0V40Z" fill="#A8DADC"/>
+              <rect y="79.4643" width="200" height="40" fill="#A8DADC"/>
+              <path d="M0 159H200V199H40C17.9086 199 0 181.091 0 159V159Z" fill="#A8DADC"/>
+              <path d="M0 160L0 80L40 80L40 160H0Z" fill="#A8DADC"/>
+              <path d="M240 0H400C422.091 0 440 17.9086 440 40V40H240V0Z" fill="#1D3557"/>
+              <path d="M240 79H440V79C440 101.091 422.091 119 400 119H240V79Z" fill="#1D3557"/>
+              <rect x="240" y="200" width="121" height="40" transform="rotate(-90 240 200)" fill="#1D3557"/>
+            </svg>
           </NavLink>
         </div>
 
-        <ul className='hidden md:flex md:justify-between w-96 font-roboto text-lg text-gray-700'>
-          <li className='py-2 px-5 rounded-full transition ease-in-out hover:bg-gray-200 hover:-translate-y-1 hover:scale-110 duration-300'>
-            <NavLink to="/" className={({ isActive }) => isActive ? activeClassName : null }>Home</NavLink>
+        <ul className='hidden md:flex md:justify-between w-96 font-roboto text-lg text-prussianBlue'>
+          <li className='navlink-hover'>
+            <NavLink to="/" className={({ isActive }) => isActive ? 'navlink-active' : null }>Home</NavLink>
           </li>
-          <li className='py-2 px-5 rounded-full transition ease-in-out hover:bg-gray-200 hover:-translate-y-1 hover:scale-110 duration-300'>
-            <NavLink to="/about" className={({ isActive }) => isActive ? activeClassName : null }>About</NavLink>
+          <li className='navlink-hover'>
+            <NavLink to="/about" className={({ isActive }) => isActive ? 'navlink-active' : null }>About</NavLink>
             </li>
-          <li className='py-2 px-5 rounded-full transition ease-in-out hover:bg-gray-200 hover:-translate-y-1 hover:scale-110 duration-300'>
-            <NavLink to="/skills" className={({ isActive }) => isActive ? activeClassName : null }>Skills</NavLink>
+          <li className='navlink-hover'>
+            <NavLink to="/skills" className={({ isActive }) => isActive ? 'navlink-active' : null }>Skills</NavLink>
           </li>
-          <li className='py-2 px-5 rounded-full transition ease-in-out hover:bg-gray-200 hover:-translate-y-1 hover:scale-110 duration-300'>
-            <NavLink to="/projects" className={({ isActive }) => isActive ? activeClassName : null }>Projects</NavLink>
+          <li className='navlink-hover'>
+            <NavLink to="/projects" className={({ isActive }) => isActive ? 'navlink-active' : null }>Projects</NavLink>
           </li>
         </ul>
 
