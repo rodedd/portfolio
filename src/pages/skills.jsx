@@ -1,4 +1,5 @@
 import React from 'react';
+import { SkillsGrid } from '../components/SkillsGrid';
 import { Container } from '../layouts/Container';
 
 const skills = [
@@ -193,32 +194,14 @@ const Skills = () => {
       </div>
 
       <p className='paragraph mb-10'>The skills, tools and technologies I use to develop my projects:</p>
-
-      <div className='w-full grid grid-cols-3 gap-5 place-items-start mb-10 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8'>
-        {skills.map(skill => (
-          skill.type === 'primary' && 
-            <div key={skill.name} className='flex flex-col justify-center items-center w-4/5'>
-              <skill.icon />
-              <span className='text-lg text-prussianBlue font-roboto mt-4'>{skill.name}</span>
-            </div>
-        ))}
-      </div>
+      <SkillsGrid skills={skills.filter(skill => skill.type === 'primary')} />
 
       <p className='paragraph mb-10'>I also have experience on the following technologies:</p>
-
-      <div className='w-full grid grid-cols-3 gap-5 place-items-start mb-10 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8'>
-        {skills.map(skill => (
-          skill.type === 'secondary' && 
-          <div key={skill.name} className='flex flex-col justify-center items-center w-4/5'>
-            <skill.icon />
-            <span className='text-lg text-prussianBlue font-roboto mt-4'>{skill.name}</span>
-          </div>
-        ))}
-      </div>
+      <SkillsGrid skills={skills.filter(skill => skill.type === 'secondary')} />
 
       <div className='w-full'>
         <h3 className='subtitle text-xl'>Currently learning:</h3>
-        <p className='text-lg text-prussianBlue'>I'm improving my skills and understanding on React and Tailwind CSS.</p>
+        <p className='text-lg text-prussianBlue'>I'm improving my skills and understanding in React with React hooks and I'm also working with Tailwind CSS.</p>
       </div>
     </Container>
   );

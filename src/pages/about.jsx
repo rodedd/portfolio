@@ -15,13 +15,16 @@ const About = () => {
         </div>
         <div className='paragraph space-y-3 sm:w-3/4 sm:ml-8'>
           <p>
-            Hi! My name is Eduardo and I'm from Mexico. I am a Computer Science graduate who specializes in Front End web development. Currently I'm learning and working on projects with React with a focus on website optimization and accessibility.
+            Hi! My name is Eduardo and I'm from Mexico. I am a Computer Science graduate who specializes in Front End web development. Currently I'm learning and working on projects with React with a focus on website optimization and accessibility. My purpose is to develop applications that improve people's lives.
           </p>
           <p>
-            Shortly after graduating from university, I continued my learning through specialized online courses on platforms like Platzi. In fact, I adopted in my life their motto of "never stop learning".
+            Shortly after graduating from the university, I continued my learning through specialized online courses on platforms like Platzi. In fact, I adopted in my life their motto of "never stop learning". In this way I try to learn something new every day even if it is not related to my work field.
           </p>
           <p>
-            Since I was a child I found myself interested in everything related to technology so now working in the tech field makes me really happy and thrilled to live in this digital age of technological changes. My purpose is to develop applications that changes people's lives for the better.
+            Since I was a child I found myself interested in everything related to technology so now working in the tech field makes me really happy and thrilled to live in this digital age of technological changes. 
+          </p>
+          <p>
+            In my spare time I like to play videogames (big Pokémon fan here), solve puzzles, practice meditation with a focus on mindfulness, read e-books on my Kindle, listen to my favorite albums from start to finish or discover new artists, exercise with a quick HiiT routine or jumping the rope, and I also like to make some pixel sprites with beads.
           </p>
         </div>
       </div>
@@ -29,7 +32,7 @@ const About = () => {
       <div className='text-lg space-y-3 mt-10'>
         <h3 className='subtitle text-xl'>Contact</h3>
         <p className='paragraph'>
-          If you think I can help you in something with your career, or if you consider that my skills and experience can be useful to you, please contact me via the following:
+          If you think I can help you with your career, or if you consider that my skills and experience can be useful to you, please contact me through my email or social media:
         </p> 
         
         <div className='text-prussianBlue space-y-3'>
