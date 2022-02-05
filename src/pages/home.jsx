@@ -17,7 +17,7 @@ const Home = () => {
 
         <div className='grid justify-items-center items-center grid-cols-1 gap-4 mt-8 mb-8 text-center md:mt-0 md:text-left md:grid-cols-5 md:justify-items-start'>
           <p className='text-3xl text-prussianBlue md:hidden'>Hi there 👋</p>
-          <img className='w-40 rounded-full md:order-5 md:justify-self-end md:self-center md:w-48' src="https://res.cloudinary.com/rodedd/image/upload/v1642636411/portfolio/Perfil334_dslkod.jpg" alt="Eduardo Prado" />
+          <img className='w-40 rounded-full md:order-5 md:justify-self-end md:self-center md:w-48' src="https://res.cloudinary.com/rodedd/image/upload/v1643830415/portfolio/avatar_ybe2bn.jpg" alt="Eduardo Prado" />
           
           <div className='space-y-3 md:order-1 md:col-span-4 md:space-y-5'>
             <p className='hidden md:block md:text-4xl text-prussianBlue'>Hi there! 👋</p>

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container } from '../layouts/Container';
+import { Button } from '../components/Button';
 
 const About = () => {
   return (
@@ -10,22 +11,36 @@ const About = () => {
       </div>
       
       <div className='w-full text-lg sm:flex'>
-        <div className='min-w-[180px] sm:w-1/4'>
-          <img className='rounded-full w-60 sm:w-full max-w-xs mb-10 mx-auto' src="https://res.cloudinary.com/rodedd/image/upload/v1642636411/portfolio/Perfil334_dslkod.jpg" alt="Eduardo Prado" />
-        </div>
-        <div className='paragraph space-y-3 sm:w-3/4 sm:ml-8'>
+
+        <div className='paragraph space-y-3'>
           <p>
             Hi! My name is Eduardo and I'm from Mexico. I am a Computer Science graduate who specializes in Front End web development. Currently I'm learning and working on projects with React with a focus on website optimization and accessibility. My purpose is to develop applications that improve people's lives.
           </p>
           <p>
             Shortly after graduating from the university, I continued my learning through specialized online courses on platforms like Platzi. In fact, I adopted in my life their motto of "never stop learning". In this way I try to learn something new every day even if it is not related to my work field.
           </p>
-          <p>
-            Since I was a child I found myself interested in everything related to technology so now working in the tech field makes me really happy and thrilled to live in this digital age of technological changes. 
-          </p>
-          <p>
-            In my spare time I like to play videogames (big Pokémon fan here), solve puzzles, practice meditation with a focus on mindfulness, read e-books on my Kindle, listen to my favorite albums from start to finish or discover new artists, exercise with a quick HiiT routine or jumping the rope, and I also like to make some pixel sprites with beads.
-          </p>
+          <div className='space-y-3 sm:space-y-0 sm:flex sm:space-x-3'>
+            <div className='min-w-[180px] sm:min-w-[200px] w-full py-2 sm:py-0 float-left'>
+              <img className='rounded-lg w-full max-w-xs mx-auto' src="https://res.cloudinary.com/rodedd/image/upload/v1643830415/portfolio/avatar_ybe2bn.jpg" alt="Eduardo Prado" />
+            </div>
+            <div className='space-y-3'>
+              <p>
+                Since I was a child I found myself interested in everything related to technology so now working in the tech field makes me really happy and thrilled to live in this digital age of technological changes. 
+              </p>
+              <p>
+                In my spare time I like to play videogames (big Pokémon fan here), solve puzzles, practice meditation with a focus on mindfulness, read e-books on my Kindle, listen to my favorite albums from start to finish or discover new artists, exercise with a quick HiiT routine or jumping the rope, and I also like to make some pixel sprites with beads.
+              </p>
+              <a href="/static/CV_RODRIGUEZ_PRADO_EDUARDO.pdf" target='_blank' rel='noreferrer' className='inline-block w-full sm:w-auto'>
+                <Button buttonType='primary'>
+                  <span className='flex justify-center space-x-2'>
+                    <span>View my resume</span>
+                    <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
+                  </span>
+                </Button>
+              </a>
+            </div>
+          </div>
+        
         </div>
       </div>
 
