@@ -20,8 +20,8 @@ const About = () => {
             Shortly after graduating from the university, I continued my learning through specialized online courses on platforms like Platzi. In fact, I adopted in my life their motto of "never stop learning". In this way I try to learn something new every day even if it is not related to my work field.
           </p>
           <div className='space-y-3 sm:space-y-0 sm:flex sm:space-x-3'>
-            <div className='min-w-[180px] sm:min-w-[200px] w-full py-2 sm:py-0 float-left'>
-              <img className='rounded-lg w-full max-w-xs mx-auto' src="https://res.cloudinary.com/rodedd/image/upload/v1643830415/portfolio/avatar_ybe2bn.jpg" alt="Eduardo Prado" />
+            <div className='min-w-[180px] sm:min-w-[200px] w-full py-2 sm:py-0 '>
+              <img className='rounded-lg w-full max-w-xs sm:max-w-none mx-auto' src="https://res.cloudinary.com/rodedd/image/upload/v1643830415/portfolio/avatar_ybe2bn.jpg" alt="Eduardo Prado" />
             </div>
             <div className='space-y-3'>
               <p>

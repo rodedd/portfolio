@@ -4,7 +4,10 @@ const Footer = () => {
   return (
     <footer className='h-20 w-full mt-10 border-t-2 flex items-center justify-between'>
       
-      <p className='text-sm sm:text-lg text-left pr-6 text-prussianBlue'>©2022 | Made with ♥️ by Eduardo</p>
+      <div className='paragraph text-left pr-6 mb-0'>
+        <p className='text-sm sm:text-lg'>©2022 | Made with ♥️ by <span className='text-ultraRed'>Eduardo</span></p>
+        <p className='text-xs sm:text-sm'>Inspired by <a className='font-bold' href="https://braydoncoyer.dev/" target='_blank' rel='noreferrer'>braydoncoyer.dev</a></p>
+      </div>
 
       <div className='w-40 flex flex-col'>
         <div className='flex justify-between'>
