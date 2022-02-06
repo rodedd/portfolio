@@ -29,10 +29,6 @@
   }
 }
 
-.shape-outside {
-  shape-outside: circle();
-}
-
 .circle-1 {
   background: radial-gradient(
     closest-side,
@@ -50,24 +46,6 @@
   );
   animation: diagonal-up-right 10s ease-in-out infinite alternate;
 }
-
-/* .logo .logo-e {
-  transform: translateY(0) translateX(0);
-  transition: transform 250ms ease-in-out;
-}
-.logo .logo-p {
-  transform: translateY(0) translateX(0);
-  transition: transform 250ms ease-in-out;
-}
-
-.logo:hover .logo-e {
-  transform: translateY(42px) translateX(-70px);
-  transition: transform 200ms ease-in-out;
-}
-.logo:hover .logo-p {
-  transform: translateY(-42px) translateX(70px);
-  transition: transform 200ms ease-in-out;
-} */
 
 .appear {
   animation: appear 300ms ease-in-out;
