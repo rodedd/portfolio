@@ -1,18 +1,25 @@
 import React from 'react';
 import { Button } from './Button';
 
-const Project = ({ name, description, tags, liveUrl, githubUrl, image, index }) => {
+const Project = ({ project, index }) => {
 
-  let mod = (index + 1) % 2;
+  const {
+    name,
+    description,
+    tags,
+    liveUrl,
+    githubUrl,
+    image,
+  } = project;
 
   return (
     <div className='mb-20 sm:flex'>
 
-      <div className={`w-full sm:w-1/2 ${mod === 0 ? 'sm:order-2' : ''}`}>
-        <img className='mb-4' src={image} alt={name} />
+      <div className={`w-full sm:w-1/2 ${((index + 1) % 2) === 0 ? 'sm:order-2' : ''} mb-4`}>
+        <img className='' src={image} alt={name} />
       </div>
 
-      <div className='sm:w-1/2'>
+      <div className='sm:w-1/2 sm:pl-8'>
         <h3 className='font-baskerville font-bold text-2xl mb-4 text-prussianBlue'>{name}</h3>
         <p className='paragraph mb-4'>{description}</p>
 

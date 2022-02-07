@@ -56,7 +56,7 @@ const projects = [
 const Projects = () => {
   return (
     <Container>
-      <div className='my-10 w-full'>
+      <div className='mt-10 mb-20 w-full'>
         <h1 className='title'>Projects</h1>
         <h2 className='subtitle'>A selection of stuff I've built.</h2>
       </div>
@@ -65,12 +65,7 @@ const Projects = () => {
         {projects.map((project, index) => (
             <Project
               key={project.name}
-              name={project.name}
-              description={project.description}
-              tags={project.tags}
-              liveUrl={project.liveUrl}
-              githubUrl={project.githubUrl}
-              image={project.image}
+              project={project}
               index={index}
             />
           ))}
