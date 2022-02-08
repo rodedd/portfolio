@@ -29,10 +29,10 @@ const Home = () => {
         </div>
 
         <div className='flex flex-col space-y-3 md:flex-row md:space-x-4 md:space-y-0'>
-          <Link to='/projects' className=''>
+          <Link to='/projects'>
             <Button buttonType='primary'>View my projects</Button>
           </Link>
-          <Link to='/about' className=''>
+          <Link to='/about'>
             <Button buttonType='secondary'>More about me</Button>
           </Link>
         </div>

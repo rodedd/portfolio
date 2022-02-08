@@ -7,6 +7,7 @@ import { Skills } from './pages/skills';
 import { Home } from './pages/home';
 import { Projects } from './pages/projects';
 import { ScrollToTop } from './utils/ScrollToTop';
+import { NotFound } from './pages/notFound';
 
 import './styles/globals.css';
 
@@ -19,6 +20,7 @@ ReactDOM.render(
           <Route path="/about" element={<About />} />
           <Route path="/skills" element={<Skills />} />
           <Route path="/projects" element={<Projects />} />
+          <Route path='*' element={<NotFound />} />
         </Routes>
       </ScrollToTop>
     </BrowserRouter>

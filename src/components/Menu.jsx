@@ -3,8 +3,9 @@ import React, { useRef, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 const Menu = ({ openMenu, isOpen, setIsOpen }) => {
-  const ref = useRef();
 
+  //Check if clicks outside the menu
+  const ref = useRef();
   useEffect(() => {
     const checkIfClickedOutside = e => {
       // If the menu is open and the clicked target is not within the menu,
