@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import { SkillsGrid } from '../components/SkillsGrid';
 import { Container } from '../layouts/Container';
 
@@ -188,6 +189,9 @@ const skills = [
 const Skills = () => {
   return (
     <Container>
+      <Helmet>
+        <title>Skills - Eduardo Prado</title>
+      </Helmet>
       <div className='my-10 w-full'>
         <h1 className='title'>Skills</h1>
         <h2 className='subtitle'>My toolbox & things I can do.</h2>

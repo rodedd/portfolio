@@ -13,7 +13,7 @@ const Project = ({ project, index }) => {
   } = project;
 
   return (
-    <div className='mb-20 sm:flex'>
+    <div className='mb-20 sm:flex sm:pb-8 sm:border-b-2'>
 
       <div className={`w-full sm:w-1/2 ${((index + 1) % 2) === 0 ? 'sm:order-2' : ''} mb-4`}>
         <img className='' src={image} alt={name} />

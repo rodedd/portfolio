@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 
 import { Link } from 'react-router-dom';
 
@@ -7,6 +8,10 @@ import { Button } from '../components/Button';
 const NotFound = () => {
   return (
     <div className='flex flex-col justify-center w-full h-screen px-8 sm:px-16'>
+
+      <Helmet>
+        <title>404 - page not found</title>
+      </Helmet>
 
       <div className='flex flex-col items-center justify-center order-2 bg-babyPowder text-center'>
         <p className='paragraph text-2xl mb-10'>404 | This page could not be found</p>

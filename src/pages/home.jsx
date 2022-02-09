@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import { Link } from 'react-router-dom';
 import { Button } from '../components/Button';
 import { Container } from '../layouts/Container';
@@ -6,6 +7,9 @@ import { Container } from '../layouts/Container';
 const Home = () => {
   return (
     <Container>
+      <Helmet>
+        <title>Eduardo Prado</title>
+      </Helmet>
       <div className='relative my-10 md:my-20'>
         <div className='-z-10 absolute w-full h-full'>
 

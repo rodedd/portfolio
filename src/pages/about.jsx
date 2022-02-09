@@ -1,10 +1,14 @@
 import React from 'react';
 import { Container } from '../layouts/Container';
 import { Button } from '../components/Button';
+import { Helmet } from 'react-helmet';
 
 const About = () => {
   return (
     <Container>
+      <Helmet>
+        <title>About - Eduardo Prado</title>
+      </Helmet>
       <div className='my-10 w-full'>
         <h1 className='title'>About</h1>
         <h2 className='subtitle'>This is me.</h2>
