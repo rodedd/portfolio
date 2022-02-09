@@ -9,7 +9,7 @@ const projects = [
     tags: ['JavaScript', 'CSS', 'HTML', 'webpack', 'Babel', 'Travis CI'],
     liveUrl: 'https://rodedd.github.io/spa-rickandmorty/',
     githubUrl: 'https://github.com/rodedd/spa-rickandmorty',
-    image: 'https://res.cloudinary.com/rodedd/image/upload/v1644191679/portfolio/projects/100tifico_dalphs.png',
+    image: 'https://res.cloudinary.com/rodedd/image/upload/v1644365753/portfolio/projects/100tifico_dszbud.png',
   },
   {
     name: 'Animationland',
@@ -17,7 +17,7 @@ const projects = [
     tags: ['CSS', 'HTML'],
     liveUrl: 'https://rodedd.github.io/animationland-game/',
     githubUrl: 'https://github.com/rodedd/animationland-game',
-    image: 'https://res.cloudinary.com/rodedd/image/upload/v1644193600/portfolio/projects/animationland_qpvayt.png',
+    image: 'https://res.cloudinary.com/rodedd/image/upload/v1644365752/portfolio/projects/animationland_a4fixz.png',
   },
   {
     name: 'To Do App',
@@ -25,7 +25,7 @@ const projects = [
     tags: ['React', 'CSS', 'Local Storage API'],
     liveUrl: 'https://to-do-app-bo6kt3g55-rodedd.vercel.app/',
     githubUrl: 'https://github.com/rodedd/To-Do-App',
-    image: 'https://res.cloudinary.com/rodedd/image/upload/v1644193372/portfolio/projects/todo_t7nunr.png',
+    image: 'https://res.cloudinary.com/rodedd/image/upload/v1644365751/portfolio/projects/todo_uzgg19.png',
   },
   {
     name: 'React MoviesDB',
@@ -33,7 +33,7 @@ const projects = [
     tags: ['React', 'CSS', 'Session Storage API'],
     liveUrl: 'https://dreamy-ramanujan-ea82d7.netlify.app/',
     githubUrl: 'https://github.com/rodedd/React-moviesdb',
-    image: 'https://res.cloudinary.com/rodedd/image/upload/v1644193381/portfolio/projects/moviesdb_jt5zno.png',
+    image: 'https://res.cloudinary.com/rodedd/image/upload/v1644365754/portfolio/projects/moviesdb_wk0agr.png',
   },
   {
     name: 'Batatabit Landing Page',
@@ -41,7 +41,7 @@ const projects = [
     tags: ['HTML', 'CSS'],
     liveUrl: 'https://rodedd.github.io/batatabit-landing-page/',
     githubUrl: 'https://github.com/rodedd/batatabit-landing-page',
-    image: 'https://res.cloudinary.com/rodedd/image/upload/v1644191434/portfolio/projects/batatabit_f8gx7k.png',
+    image: 'https://res.cloudinary.com/rodedd/image/upload/v1644365752/portfolio/projects/batatabit_czuu7d.png',
   },
   {
     name: 'Animal Crossing Landing Page',
@@ -49,7 +49,7 @@ const projects = [
     tags: ['HTML', 'CSS', 'Bootstrap'],
     liveUrl: 'https://rodedd.github.io/animalcrossing_bootstrap/',
     githubUrl: 'https://github.com/rodedd/animalcrossing_bootstrap',
-    image: 'https://res.cloudinary.com/rodedd/image/upload/v1644193377/portfolio/projects/aclanding_unkxqi.png',
+    image: 'https://res.cloudinary.com/rodedd/image/upload/v1644365753/portfolio/projects/aclanding_ntrbgz.png',
   },
 ]
 

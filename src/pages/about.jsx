@@ -19,7 +19,7 @@ const About = () => {
           <p>
             Shortly after graduating from the university, I continued my learning through specialized online courses on platforms like Platzi. In fact, I adopted in my life their motto of "never stop learning". In this way I try to learn something new every day even if it is not related to my work field.
           </p>
-          <div className='space-y-3 sm:space-y-0 sm:flex sm:space-x-3'>
+          <div className='space-y-3 sm:space-y-0 sm:flex sm:space-x-4'>
             <div className='min-w-[180px] sm:min-w-[200px] w-full py-2 sm:py-0 '>
               <img className='rounded-lg w-full max-w-xs sm:max-w-none mx-auto' src="https://res.cloudinary.com/rodedd/image/upload/v1643830415/portfolio/avatar_ybe2bn.jpg" alt="Eduardo Prado" />
             </div>
@@ -47,7 +47,7 @@ const About = () => {
       <div className='text-lg space-y-3 mt-10'>
         <h3 className='subtitle text-xl'>Contact</h3>
         <p className='paragraph'>
-          If you think I can help you with your career, or if you consider that my skills and experience can be useful to you, please contact me through my email or social media:
+          Feel free to reach out if you're looking for a developer, have a question or just want to connect.
         </p> 
         
         <div className='text-prussianBlue space-y-3'>
