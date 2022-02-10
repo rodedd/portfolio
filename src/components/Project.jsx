@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button } from './Button';
 
-const Project = ({ project, index }) => {
+const Project = ({ project, index, length }) => {
 
   const {
     name,
@@ -13,7 +13,7 @@ const Project = ({ project, index }) => {
   } = project;
 
   return (
-    <div className='mb-20 sm:flex sm:pb-8 sm:border-b-2'>
+    <div className={`sm:flex sm:pb-8 ${!(index === length - 1) ? 'mb-20 sm:border-b-2' : 'mb-10 sm:mb-0' }`}>
 
       <div className={`w-full sm:w-1/2 ${((index + 1) % 2) === 0 ? 'sm:order-2' : ''} mb-4`}>
         <img className='' src={image} alt={name} />

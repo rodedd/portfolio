@@ -71,6 +71,7 @@ const Projects = () => {
               key={project.name}
               project={project}
               index={index}
+              length={projects.length}
             />
           ))}
       </div>
