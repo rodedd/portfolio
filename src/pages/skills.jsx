@@ -197,7 +197,7 @@ const Skills = () => {
         <h2 className='subtitle'>My toolbox & things I can do.</h2>
       </div>
 
-      <p className='paragraph mb-10'>The skills, tools and technologies I use to develop my projects:</p>
+      <p className='paragraph mb-10'>The skills, tools and technologies I use to build my projects:</p>
       <SkillsGrid skills={skills.filter(skill => skill.type === 'primary')} />
 
       <p className='paragraph mb-10'>I also have experience on the following technologies:</p>
@@ -205,7 +205,7 @@ const Skills = () => {
 
       <div className='w-full'>
         <h3 className='subtitle text-xl'>Currently learning:</h3>
-        <p className='text-lg text-prussianBlue'>I'm improving my skills and understanding in React with React hooks and I'm also working with Tailwind CSS.</p>
+        <p className='text-lg text-prussianBlue'>I'm improving my skills and understanding in React and I'm also working with Tailwind CSS.</p>
       </div>
     </Container>
   );

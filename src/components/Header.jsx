@@ -14,14 +14,11 @@ const Header = () => {
       <nav className='flex justify-between items-center w-screen relative'>
         <div>
           <NavLink to="/"> 
-            <svg width="60" viewBox="0 0 440 200" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M0 40C0 17.9086 17.9086 0 40 0H200V40H0V40Z" fill="#A8DADC"/>
-              <rect y="79.4643" width="200" height="40" fill="#A8DADC"/>
-              <path d="M0 159H200V199H40C17.9086 199 0 181.091 0 159V159Z" fill="#A8DADC"/>
-              <path d="M0 160L0 80L40 80L40 160H0Z" fill="#A8DADC"/>
-              <path d="M240 0H400C422.091 0 440 17.9086 440 40V40H240V0Z" fill="#1D3557"/>
-              <path d="M240 79H440V79C440 101.091 422.091 119 400 119H240V79Z" fill="#1D3557"/>
-              <rect x="240" y="200" width="121" height="40" transform="rotate(-90 240 200)" fill="#1D3557"/>
+            <svg width="36" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+              <path className='fill-celadonBlue' d="M0 40.201C0 17.9986 17.9986 0 40.201 0H200V40.201H0V40.201Z"/>
+              <rect className='fill-powderBlue' y="79.8636" width="200" height="40.201"/>
+              <path className='fill-powderBlue' d="M0 159.799H200V200H40.201C17.9986 200 0 182.001 0 159.799V159.799Z"/>
+              <path className='fill-powderBlue' d="M0 160.804L0 80.402L40 80.402L40 160.804H0Z"/>
             </svg>
           </NavLink>
         </div>

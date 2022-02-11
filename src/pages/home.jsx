@@ -36,7 +36,7 @@ const Home = () => {
             <h1 className='flex flex-col'>
               <span className='text-5xl md:text-5xl font-bold text-prussianBlue'>I'm <span className='text-ultraRed'>Eduardo</span>.</span>
             </h1>
-            <p className='paragraph text-2xl mb-6 md:text-3xl'>I'm a Computer Science graduate specialized in Front End development. I'm constantly learning and evolving, with a passion to create things for the web.</p>
+            <p className='paragraph text-2xl mb-6 md:text-3xl'>I'm a Jr Web Developer specialized in Front End development with React. I'm constantly learning and evolving, with a passion to create things for the web.</p>
           </div>
         </div>
 
