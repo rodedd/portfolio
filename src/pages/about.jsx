@@ -34,7 +34,7 @@ const About = () => {
               <p>
                 In my spare time I like to play videogames (big Pokémon fan here), solve puzzles, practice meditation with focus on mindfulness, read e-books, listen to my favorite albums from start to finish or discover new artists, exercise with a quick HiiT routine or jumping the rope, and I also like to make some pixel sprites with beads.
               </p>
-              <a href="/static/CV_RODRIGUEZ_PRADO_EDUARDO.pdf" target='_blank' rel='noreferrer' className='inline-block w-full sm:w-auto'>
+              <a href="/static/CV_RODRIGUEZ_PRADO_EDUARDO_ENG.pdf" target='_blank' rel='noreferrer' className='inline-block w-full sm:w-auto'>
                 <Button buttonType='primary'>
                   <span className='flex justify-center space-x-2'>
                     <span>View my resume</span>
