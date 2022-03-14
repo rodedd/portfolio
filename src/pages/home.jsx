@@ -1,10 +1,19 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { analytics } from '../firebaseConfig';
+import { logEvent } from 'firebase/analytics';
+
 import { Helmet } from 'react-helmet';
 import { Link } from 'react-router-dom';
 import { Button } from '../components/Button';
 import { Container } from '../layouts/Container';
 
 const Home = () => {
+
+  useEffect(() => {
+    logEvent(analytics, "homepage_visited");
+  }, [])
+  
+
   return (
     <Container>
       <Helmet>
