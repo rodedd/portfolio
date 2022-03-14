@@ -13,6 +13,14 @@ const projects = [
     image: 'https://res.cloudinary.com/rodedd/image/upload/v1644365754/portfolio/projects/moviesdb_wk0agr.png',
   },
   {
+    name: 'Pokédex',
+    description: 'A classic Pokédex that lists all the 898 existing Pokémon. It includes the information of each one, a search bar to search for a specific Pokémon and a type-filtering functionality. The data comes from the Pokeapi API https://pokeapi.co/',
+    tags: ['NextJS' , 'React', 'Tailwind CSS', 'Web APIs'],
+    liveUrl: 'https://next-js-pokedex-gamma.vercel.app/',
+    githubUrl: 'https://github.com/rodedd/NextJsPokedex',
+    image: 'https://res.cloudinary.com/rodedd/image/upload/v1647231999/portfolio/projects/pokedex_hms5us.png',
+  },
+  {
     name: '100tifico',
     description: '100tifico is a Single Page Application (SPA) that shows information from Rick & Morty\'s characters using the Rick & Morty API https://rickandmortyapi.com/',
     tags: ['JavaScript', 'CSS', 'HTML', 'Webpack', 'Babel', 'Web APIs'],
