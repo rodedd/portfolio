@@ -11,30 +11,30 @@ const About = () => {
       </Helmet>
       <div className='my-10 w-full'>
         <h1 className='title'>About</h1>
-        <h2 className='subtitle'>This is me.</h2>
+        <h2 className='subtitle'>Get to know me.</h2>
       </div>
       
       <div className='w-full text-lg sm:flex'>
 
         <div className='paragraph space-y-3'>
           <p>
-            Hi! My name is Eduardo and I'm from Mexico. I'm a Computer Science graduate who specializes in Front End web development. Currently I'm learning and working on React projects with a focus on website optimization and accessibility. My purpose is to develop applications that improve people's lives.
+            Hi! My name is Eduardo and I'm from Mexico. I'm a Computer Science graduate focused on web development. I have 2+ years of experience using both front end and back end technologies for business projects. Currently I'm learning and working on React projects with a focus on website optimization and accessibility. My purpose is to develop applications that improve people's lives.
           </p>
           <p>
-            Shortly after graduating from the university, I continued my learning through specialized online courses on platforms like Platzi. In fact, I adopted in my life their motto of "never stop learning". In this way I try to learn something new every day even if it is not related to my work field.
+            Shortly after graduating from the university, I continued my learning through specialized online courses. I adopted in my life the motto of "never stop learning" and in this way I try to learn something new every day even if it is not related to my work field.
           </p>
           <div className='space-y-3 sm:space-y-0 sm:flex sm:space-x-4'>
             <div className='min-w-[180px] sm:min-w-[200px] w-full py-2 sm:py-0 '>
-              <img className='rounded-lg w-full max-w-xs sm:max-w-none mx-auto' src="https://res.cloudinary.com/rodedd/image/upload/v1643830415/portfolio/avatar_ybe2bn.jpg" alt="Eduardo Prado" />
+              <img className='rounded-lg w-full max-w-xs sm:max-w-none mx-auto' src="https://res.cloudinary.com/rodedd/image/upload/v1705463796/portfolio/IMG_20211106_101559_490_lnhcch.jpg" alt="Eduardo Prado" />
             </div>
             <div className='space-y-3'>
               <p>
                 Since I was a child I found myself interested in everything related to technology so now working in the tech field makes me really happy and thrilled to live in this digital age of technological changes. 
               </p>
               <p>
-                In my spare time I like to play videogames (big Pokémon fan here), solve puzzles, practice meditation with focus on mindfulness, read e-books, listen to my favorite albums from start to finish or discover new artists, exercise with a quick HiiT routine or jumping the rope, and I also like to make some pixel sprites with beads.
+                In my spare time I like to play videogames (big Pokémon fan here), solve puzzles, practice meditation with focus on mindfulness, read e-books, listen to my favorite albums from start to finish or discover new artists, exercise with a quick HiiT routine or jumping the rope.
               </p>
-              <a href="/static/CV_RODRIGUEZ_PRADO_EDUARDO_ENG.pdf" target='_blank' rel='noreferrer' className='inline-block w-full sm:w-auto'>
+              <a href="/static/CV_RODRIGUEZ_PRADO_EDUARDO.pdf" target='_blank' rel='noreferrer' className='inline-block w-full sm:w-auto'>
                 <Button buttonType='primary'>
                   <span className='flex justify-center space-x-2'>
                     <span>View my resume</span>
@@ -57,7 +57,7 @@ const About = () => {
         <div className='text-prussianBlue space-y-3'>
           <div className='flex items-center space-x-2'>
             <svg className='w-7 fill-prussianBlue' xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 30 30"><path d="M 4 5 C 2.9069372 5 2 5.9069372 2 7 L 2 23 C 2 24.093063 2.9069372 25 4 25 L 26 25 C 27.093063 25 28 24.093063 28 23 L 28 7 C 28 5.9069372 27.093063 5 26 5 L 4 5 z M 6.6992188 7 L 23.300781 7 L 15 13.134766 L 6.6992188 7 z M 5 9.4746094 L 15 16.865234 L 25 9.4746094 L 25 23 L 5 23 L 5 9.4746094 z"></path></svg>
-            <span className='font-bold'>Email: <a className='underline underline-offset-8 decoration-ultraRed decoration-2 text-ultraRed' href='mailto:96.rodedd@gmail.com' target='_blank' rel='noreferrer'>@eduardoprado</a></span>
+            <span className='font-bold'>Email: <a className='underline underline-offset-8 decoration-ultraRed decoration-2 text-ultraRed' href='mailto:hello@eduardoprado.dev' target='_blank' rel='noreferrer'>@eduardoprado</a></span>
           </div>
           <div className='flex items-center space-x-2'>
             <svg className='w-7 fill-prussianBlue' xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 50 50">

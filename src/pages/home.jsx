@@ -38,14 +38,14 @@ const Home = () => {
 
         <div className='grid justify-items-center items-center grid-cols-1 gap-4 mt-8 mb-8 text-center md:mt-0 md:text-left md:grid-cols-5 md:justify-items-start'>
           <p className='text-3xl text-prussianBlue md:hidden'>Hi there 👋</p>
-          <img className='drop-shadow-xl w-40 rounded-full md:order-5 md:justify-self-end md:self-center md:w-48' src="https://res.cloudinary.com/rodedd/image/upload/v1643830415/portfolio/avatar_ybe2bn.jpg" alt="Eduardo Prado" />
+          <img className='drop-shadow-xl w-40 rounded-full md:order-5 md:justify-self-end md:self-center md:w-48' src="https://res.cloudinary.com/rodedd/image/upload/v1705449923/portfolio/cvpp_1_vzqd8g.jpg" alt="Eduardo Prado" />
           
           <div className='space-y-3 md:order-1 md:col-span-4 md:space-y-5'>
             <p className='hidden md:block md:text-4xl text-prussianBlue'>Hi there! 👋</p>
             <h1 className='flex flex-col'>
               <span className='text-5xl md:text-5xl font-bold text-prussianBlue'>I'm <span className='text-ultraRed'>Eduardo</span>.</span>
             </h1>
-            <p className='paragraph text-2xl mb-6 md:text-3xl'>I'm a Jr Web Developer specialized in Front End development with React. I'm constantly learning and evolving, with a passion to create things for the web.</p>
+            <p className='paragraph text-2xl mb-6 md:text-3xl'>I'm a Web Developer with 2+ years of experience using both front-end and back-end technologies for business projects. I'm constantly learning and evolving, with a passion to create things for the web.</p>
           </div>
         </div>
 

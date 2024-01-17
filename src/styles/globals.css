@@ -21,8 +21,11 @@
   .navlink-active {
     @apply font-bold underline underline-offset-8 decoration-ultraRed decoration-2 text-prussianBlue;
   }
-  .skills-svg {
+  .skills-svg-128vb {
     @apply fill-ultraRed stroke-prussianBlue stroke-2;
+  }
+  .skills-svg-50vb {
+    @apply fill-ultraRed stroke-prussianBlue stroke-1;
   }
   .button-ring {
     @apply transition-all hover:ring hover:ring-prussianBlue hover:ring-offset-2 hover:ring-offset-babyPowder;
